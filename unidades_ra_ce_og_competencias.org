@@ -1,0 +1,18 @@
+* 1.- Desarrollo de software
+** RA1. Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en las que actúan hasta llegar a su puesta en funcionamiento
+*** Criterios de evaluación: a, b, c, d, e, f
+    - a) Se ha reconocido la relación de los programas con los componentes del sistema informático: memoria, procesador y periféricos, entre otros.
+    - b) Se han identificado las fases de desarrollo de una aplicación informática.
+    - c) Se han diferenciado los conceptos de código fuente, código objeto y código ejecutable.
+    - d) Se han reconocido las características de la generación de código intermedio para su ejecución en máquinas virtuales
+    - e) Se han clasificado los lenguajes de programación.
+    - f) Se ha evaluado la funcionalidad ofrecida por las herramientas utilizadas en programación.
+*** Objetivos generales: e, h, i, j
+    - e) Seleccionar y emplear lenguajes, herramientas y librerías, interpretando las especificaciones para desarrollar aplicaciones multiplataforma con acceso a bases de datos
+    - h) Emplear herramientas de desarrollo, lenguajes y componentes visuales, siguiendo las especificaciones y verificando interactividad y usabilidad, para desarrollar interfaces gráficos de usuario en aplicaciones multiplataforma.
+    - i) Seleccionar y emplear técnicas, motores y entornos de desarrollo, evaluando sus posibilidades, para participar en el desarrollo de juegos y aplicaciones en el ámbito del entretenimiento.
+    - j) Seleccionar y emplear técnicas, lenguajes y entornos de desarrollo, evaluando sus posibilidades, para desarrollar aplicaciones en teléfonos, PDA y otros dispositivos móviles.
+*** Competencias: d, f, v
+    - d) Gestionar entornos de desarrollo adaptando su configuración en cada caso para permitir el desarrollo y despliegue de aplicaciones.
+    - f) Desarrollar aplicaciones implementando un sistema completo de formularios e informes que permitan gestionar de forma integral la información almacenada.
+    - v) Gestionar su carrera profesional, analizando las oportunidades de empleo, autoempleo y de aprendizaje.

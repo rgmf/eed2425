@@ -1,0 +1,61 @@
+* Resultados de aprendizaje y criterios de evaluación
+** RA1. Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en las que actúan hasta llegar a su puesta en funcionamiento
+*** Criterios de evaluación
+- a) Se ha reconocido la relación de los programas con los componentes del sistema informático: memoria, procesador y periféricos, entre otros.
+- b) Se han identificado las fases de desarrollo de una aplicación informática.
+- c) Se han diferenciado los conceptos de código fuente, código objeto y código ejecutable.
+- d) Se han reconocido las características de la generación de código intermedio para su ejecución en máquinas virtuales
+- e) Se han clasificado los lenguajes de programación.
+- f) Se ha evaluado la funcionalidad ofrecida por las herramientas utilizadas en programación.
+
+** RA2. Evalúa entornos integrados de desarrollo, analizando, sus características para editar código fuente y generar ejecutables
+*** Criterios de evaluación
+- a) Se han instalado entornos de desarrollo, propietarios y libres.
+- b) Se han añadido y eliminado módulos en el entorno de desarrollo.
+- c) Se ha personalizado y automatizado el entorno de desarrollo.
+- d) Se ha configurado el sistema de actualización del entorno de desarrollo.
+- e) Se han generado ejecutables a partir de código fuente de diferentes lenguajes en un mismo entorno de desarrollo.
+- f) Se han generado ejecutables a partir de un mismo código fuente con varios entornos de desarrollo.
+- g) Se han identificado las características comunes y específicas de diversos entornos de desarrollo.
+
+** RA3. Verifica el funcionamiento de programas, diseñando y realizando pruebas
+*** Criterios de evaluación
+- a) Se han identificado los diferentes tipos de pruebas.
+- b) Se han definido casos de prueba.
+- c) Se han identificado las herramientas de depuración y prueba de aplicaciones ofrecidas por el entorno de desarrollo.
+- d) Se han utilizado herramientas de depuración para definir puntos de ruptura y seguimiento.
+- e) Se han utilizado las herramientas de depuración para examinar y modificar el comportamiento de un programa en tiempo de ejecución.
+- f) Se han efectuado pruebas unitarias de clases y funciones.
+- g) Se han implementado pruebas automáticas.
+- h) Se han documentado las incidencias detectadas.
+
+** RA4. Optimiza código empleando las herramientas disponibles en el entorno de desarrollo
+*** Criterios de evaluación
+- a) Se han identificado los patrones de refactorización más usuales.
+- b) Se han elaborado las pruebas asociadas a la refactorización.
+- c) Se ha revisado el código fuente usando un analizador de código.
+- d) Se han identificado las posibilidades de configuración de un analizador de código.
+- e) Se han aplicado patrones de refactorización con las herramientas que proporciona el entorno de desarrollo.
+- f) Se ha realizado el control de versiones integrado en el entorno de desarrollo.
+- g) Se han utilizado herramientas del entorno de desarrollo para documentar las clases.
+
+** RA5. Genera diagramas de clases valorando su importancia en el desarrollo de aplicaciones y empleando las herramientas disponibles en el entorno.
+*** Criterios de evaluación
+- a) Se han identificado los conceptos básicos de la programación orientada a objetos.
+- b) Se ha instalado el módulo del entorno integrado de desarrollo que permite la utilización de diagramas de clases.
+- c) Se han identificado las herramientas para la elaboración de diagramas de clases.
+- d) Se ha interpretado el significado de diagramas de clases.
+- e) Se han trazado diagramas de clases a partir de las especificaciones de las mismas.
+- f) Se ha generado código a partir de un diagrama de clases.
+- g) Se ha generado un diagrama de clases mediante ingeniería inversa.
+
+** Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando las herramientas disponibles en el entorno.
+*** Criterios de evaluación
+- a) Se han identificado los distintos tipos de diagramas de comportamiento.
+- b) Se ha reconocido el significado de los diagramas de casos de uso.
+- c) Se han interpretado diagramas de interacción.
+- d) Se han elaborado diagramas de interacción sencillos.
+- e) Se ha interpretado el significado de diagramas de actividades.
+- f) Se han elaborado diagramas de actividades sencillos.
+- g) Se han interpretado diagramas de estados.
+- h) Se han planteado diagramas de estados sencillos.
