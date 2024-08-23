@@ -35,6 +35,14 @@
             3.2. Lenguaje ensamblador<br>
             3.3. Lenguajes de alto nivel<br>
         </p>
+        <p>
+          4. Código fuente, objeto y ejecutable<br>
+        </p>
+        <p>
+          5. Traductores de código<br>
+            5.2. Compiladores e intérpretes<br>
+            5.3. Código intermedio y máquinas virtuales<br>
+        </p>
       </td>
       <td>
         CE1a. Se ha reconocido la relación de los programas con los componentes del sistema informático: memoria, procesador, periféricos, entre otros.<br>
@@ -53,3 +61,5 @@
 1. [El ordenador: una máquina programable](01_el_ordenador.md)
 2. [Relación software-hardware](02_relacion_hw_sw.md)
 3. [Lenguajes de programación: evolución histórica](03_lenguajes.md)
+4. [Código fuente, objeto y ejecutable](04_codigo.md)
+5. [Traductores de código](05_traductores_codigo.md)
