@@ -37,11 +37,26 @@
         </p>
         <p>
           4. Código fuente, objeto y ejecutable<br>
+            4.1. Código fuente<br>
+            4.2. Código objeto<br>
+            4.3. Código ejecutable<br>
+            4.4. Carga del programa ejecutable<br>
         </p>
         <p>
           5. Traductores de código<br>
-            5.2. Compiladores e intérpretes<br>
-            5.3. Código intermedio y máquinas virtuales<br>
+            5.1. Compiladores e intérpretes<br>
+            5.2. Código intermedio y máquinas virtuales<br>
+            5.3. Formatos ejecutables<br>
+        </p>
+        <p>
+          6. Fases en el desarrollo de un programa<br>
+            6.1. Fase de codificación<br>
+            6.2. Fase de generación<br>
+            6.3. Fase de corrección de errores<br>
+            6.4. Fase de pruebas<br>
+            6.5. Fase de depuración<br>
+            6.6. Fase de mantenimiento<br>
+            6.7. Herramientas de desarrollo<br>
         </p>
       </td>
       <td>
@@ -63,3 +78,4 @@
 3. [Lenguajes de programación: evolución histórica](03_lenguajes.md)
 4. [Código fuente, objeto y ejecutable](04_codigo.md)
 5. [Traductores de código](05_traductores_codigo.md)
+6. [Fases en el desarrollo de un programa](06_fases_desarrollo.md)

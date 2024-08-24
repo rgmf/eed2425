@@ -5,7 +5,7 @@
 
 # Código fuente, objeto y ejecutable
 
-Hoy en día no se escribe código máquina directamente, así que se necesita de algún mecanismo o forma de obtener dicho código máquina que puede ejecutar el ordenador.
+Hoy en día no se escribe código máquina directamente, así que se necesita de algún mecanismo o forma de obtener dicho código máquina que pueda ejecutar el ordenador.
 
 Antes tienes que saber que existen tres tipos de código: código **fuente**, código **objeto** y código  ***máquina** o ejecutable.
 
@@ -289,3 +289,17 @@ Desensamblado de la sección .fini:
     11e8:   48 83 c4 08             add    $0x8,%rsp
     11ec:   c3                      retq
 ```
+
+# Carga del programa ejecutable
+
+El código ejecutable tiene que tener un formato que entienda el sistema operativo sobre el que se vaya a ejecutar. A continuación, te explico brevemente, los formatos usados en los sistemas operativos Linux y Windows:
+
+- En **Linux** el formato se denomina **ELF** (*Executable and Linkable Format*). Estos ficheros ejecutables tiene una cabecera (*ELF header*), el *.text* donde están las instrucciones del programa y el *.data* donde están los datos del mismo (entre otras cosas). En la [Wikipedia](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) puedes ver los detalles de estos ejecutables.
+
+![Formato de los ficheros ejecutables ELF](./img/elf_format.png)
+
+- En **Windows** el formato se denomina **EXE** (de *EXEcutable*) y que, internamente, se conoce como **PE** (*Portable Executable*). Estos ficheros tienen, también, una cabecera (*DOS header*) y una serie de punteros (que se pueden ver debajo en la siguiente imagen) a las instrucciones y los datos del programa. En la propia [web de Microsoft](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format#coff-file-header-object-and-image) puedes leer los detalles de los *Portable Executable* para los programas de 32 bits.
+
+![Formato de los ficheros ejecutable EXE](./img/exe_format.png)
+
+Por ese motivo, un **programa escrito y convertido para ser ejecutado en Linux no puede ser ejecutado en Windows, y viceversa**.

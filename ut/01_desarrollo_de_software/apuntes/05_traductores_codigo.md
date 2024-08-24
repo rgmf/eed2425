@@ -94,3 +94,9 @@ public class Main {
         24: return
     }
 ```
+
+# Formatos ejecutables
+
+Es apropiado volver a recordar que cada sistema operativo tiene su formato concreto de fichero ejecutable (programa ejecutable). Puedes volver a leer el apartado anterior si no lo recuerdas.
+
+Los traductores de los lenguajes de alto nivel generan, al final del proceso de traducción, un fichero en el formato correspondiente del sistema operativo en el que se vaya a ejecutar. En Linux **ELF** y en Windows **EXE**, por ejemplo.
