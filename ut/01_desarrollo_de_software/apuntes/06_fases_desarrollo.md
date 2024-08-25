@@ -1,7 +1,8 @@
 # Resultados de aprendizaje y criterios de evaluación
 
 - **RA1** Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en las que actúan hasta llegar a su puesta en funcionamiento.
-  - **CE.b** Se han identificado las fases de desarrollo de una aplicación informática.
+  - **CE1b** Se han identificado las fases de desarrollo de una aplicación informática.
+  - **CE1f**. Se ha evaluado la funcionalidad ofrecida por las herramientas utilizadas en programación.
 
 # Fases en el desarrollo de un programa
 

@@ -1,7 +1,7 @@
 # Resultados de aprendizaje y criterios de evaluación
 
 - **RA1** Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en las que actúan hasta llegar a su puesta en funcionamiento.
-  - **CE.e** Se han clasificado los lenguajes de programación.
+  - **CE1e** Se han clasificado los lenguajes de programación.
 
 # Lenguajes de programación: evolución histórica
 

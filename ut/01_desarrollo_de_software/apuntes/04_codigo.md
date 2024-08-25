@@ -1,7 +1,7 @@
 # Resultados de aprendizaje y criterios de evaluación
 
 - **RA1** Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en las que actúan hasta llegar a su puesta en funcionamiento.
-  - **CE.c** Se han diferenciado los conceptos de código fuente, código objeto y código ejecutable.
+  - **CE1c** Se han diferenciado los conceptos de código fuente, código objeto y código ejecutable.
 
 # Código fuente, objeto y ejecutable
 

@@ -58,6 +58,9 @@
             6.6. Fase de mantenimiento<br>
             6.7. Herramientas de desarrollo<br>
         </p>
+        <p>
+          7. Ejecución de un programa en un ordenador<br>
+        </p>
       </td>
       <td>
         CE1a. Se ha reconocido la relación de los programas con los componentes del sistema informático: memoria, procesador, periféricos, entre otros.<br>
@@ -79,3 +82,4 @@
 4. [Código fuente, objeto y ejecutable](04_codigo.md)
 5. [Traductores de código](05_traductores_codigo.md)
 6. [Fases en el desarrollo de un programa](06_fases_desarrollo.md)
+7. [Ejecución de un programa en un ordenador](07_ejecucion.md)

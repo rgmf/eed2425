@@ -1,7 +1,7 @@
 # Resultados de aprendizaje y criterios de evaluación
 
 - **RA1** Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en las que actúan hasta llegar a su puesta en funcionamiento.
-  - **CE.a** Se ha reconocido la relación de los programas con los componentes del sistema informático: memoria, procesador y periféricos, entre otros.
+  - **CE1a** Se ha reconocido la relación de los programas con los componentes del sistema informático: memoria, procesador y periféricos, entre otros.
 
 # El ordenador: una máquina programable
 
@@ -46,6 +46,14 @@ Esta es la memoria del ordenador que nosotros solemos conocer coloquialmente com
 > No confundas memoria principal con memoria secundaria. La memoria principal forma parte de la aquitectura y es una memoria muy rápida. La memoria secundaria es un dispositivo como un disco duro, un disco sólido, un dispositivo de almacenamiento USB, un DVD, etc. Esta memoria secundaria es un periférico y es donde tenemos almacenados los datos y programas instalados.
 
 > Se presupone que conoces la diferencia entre memoria principal y secundaria. Si no es así deberías [leer este artículo](https://www.geeksforgeeks.org/difference-between-primary-and-secondary-memory/).
+
+En la siguiente imagen tienes representada una memoria con estas características:
+
+- **Arquitectura de 8 bytes**: cada fila consta de 8 bits (cada una de las celdas es un bit).
+- Las direcciones son de la primera celda de cada fila y están dadas en hexadecimal (los número comienzan con el prefijo **0x** para indicar que dicho número está en formato hexadecimal).
+- Se trata, pues, de una **memoria de 4GiB**, es decir, hay **4 294 967 295 celdas o bits**.
+
+![Representación de una memoria de 4GiB](./img/memoria_4gib.png)
 
 ## Unidad de Entrada/Salida
 
