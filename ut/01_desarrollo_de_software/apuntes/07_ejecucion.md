@@ -50,8 +50,8 @@ Esta **ejecución se hace dentro de la CPU**, para lo cual se tienen que ir carg
 Vamos a imaginar un programa muy sencillo que consta de estas tres instrucciones en ensamblador:
 
 ```asm
-movl    -4(%rbp), %edx
-movl    -8(%rbp), %eax
+movl    -8(%rbp), %edx
+movl    -16(%rbp), %eax
 addl    %edx, %eax
 ```
 
@@ -62,29 +62,43 @@ Usamos las instrucciones en ensamblador en vez de en código máquina para que r
 **Estado 1: programa cargado en memoria**
 
 - La CPU tiene en su registro **PC** la dirección de la primera instrucción a ejecutar.
-- En la memoria tenemos las instrucciones en la sección **.text** y los datos a sumar en la sección **.rodata**.
+- En la memoria tenemos las instrucciones en la sección **.text** y los datos a sumar en la sección **.data**.
+
+![Ejecución de programa en la CPU](./img/cpu_memoria_ejecucion_estado1.png)
 
 **Estado 2: primera instrucción en al CPU**
 
 - La CPU tiene en el **RI** la instrucción a ejecutar y en el **PC** la dirección de la siguiente instrucción a ejecutar.
 
+![Ejecución de programa en la CPU](./img/cpu_memoria_ejecucion_estado2.png)
+
 **Estado 3: primera instrucción ejecutada**
 
 - Una vez ejecuta la primera instrucción, tenemos en el registro **edx** el dato que había en memoria.
+
+![Ejecución de programa en la CPU](./img/cpu_memoria_ejecucion_estado3.png)
 
 **Estado 4: segunda instrucción en la CPU**
 
 - La CPU tiene en el **RI** la segunda instrucción a ejecutar y en el **PC** la dirección de la siguiente instrucción a ejecutar.
 
+![Ejecución de programa en la CPU](./img/cpu_memoria_ejecucion_estado4.png)
+
 **Estado 5: segunda instrucción ejecutada**
 
 - Una vez ejecuta la segunda instrucción, tenemos en el registro **eax** el dato que había en memoria.
+
+![Ejecución de programa en la CPU](./img/cpu_memoria_ejecucion_estado5.png)
 
 **Estado 6: tercera instrucción en la CPU**
 
 - La CPU tiene en el **RI** la tercera y última instrucción a ejecutar y en el **PC** la dirección de la siguiente instrucción a ejecutar (no hay más, así que terminaremos aquí).
 
+![Ejecución de programa en la CPU](./img/cpu_memoria_ejecucion_estado6.png)
+
 **Estado 7: tercera instrucción ejecutada**
 
 - Una vez ejecuta la tercera instrucción, tenemos en el registro **eax** el resultado de sumar lo que había en **edx** y en el propio **eax**.
 - Para la ejecución de esta instrucción, al ser una suma, se ha hecho uso de la **ALU**. Recuerda que la **ALU** hace las operaciones matemáticas y lógicas.
+
+![Ejecución de programa en la CPU](./img/cpu_memoria_ejecucion_estado7.png)
