@@ -30,7 +30,7 @@ Antes de continuar, una vez obtenido el programa ejecutable conviene probarlo pa
 
 ## Fase de depuración
 
-Durante las pruebas podemos encontrarnos con los denominados **errores de ejecución** (también conocidos como **bugs**). Cuando nos encontramos con estos errores, según la dificultad, tendremos que investigar qué has pasado y dónde nos hemos equivocado (en el código fuente escrito). A este trabajo se le denomina **depuración** de programas y es una de las habilidades más importantes de un programador.
+Durante las pruebas podemos encontrarnos con los denominados **errores de ejecución** (también conocidos como **bugs**). Cuando nos encontramos con estos errores, según la dificultad, tendremos que investigar qué ha pasado y dónde nos hemos equivocado (en el código fuente escrito). A este trabajo se le denomina **depuración** de programas y es una de las habilidades más importantes de un programador.
 
 ## Fase de mantenimiento
 
