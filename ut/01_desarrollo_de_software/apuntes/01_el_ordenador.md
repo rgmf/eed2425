@@ -51,11 +51,11 @@ Esta es la memoria del ordenador que nosotros solemos conocer coloquialmente com
 
 En la siguiente imagen tienes representada una memoria con estas características:
 
-- **Arquitectura de 8 bytes**: cada fila consta de 8 bits (cada una de las celdas es un bit).
+- **Arquitectura de 8 bits**: cada fila consta de 8 bits (cada una de las celdas es un bit).
 - Las direcciones son de la primera celda de cada fila y están dadas en hexadecimal (los número comienzan con el prefijo **0x** para indicar que dicho número está en formato hexadecimal).
-- Se trata, pues, de una **memoria de 4GiB**, es decir, hay **4 294 967 295 celdas o bits**.
+- Se trata, pues, de una **memoria 256 bytes**, es decir, hay **2 048 bits** o celdas.
 
-![Representación de una memoria de 4GiB](./img/memoria_4gib.png)
+![Representación de una memoria de 256 bytes](./img/memoria_265bytes.png)
 
 ## Unidad de Entrada/Salida
 
