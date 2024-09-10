@@ -37,7 +37,9 @@ En la CPU encontramos una **Unidad Aritmético Lógica** (ALU), una serie de **r
 
 > Investiga: ¿qué tamaño tienen los registros de las CPU actuales?, ¿cuántos registro tiene un microprocesador actual?, ¿de qué orden de magnitod es más rápido un registro con respecto a la memoria principal?
 
-- Una **Unidad de Control** que manda señales al resto de componentes para que todas las partes estén sincronizadas. Se comporta como los semáforos que regulan el tráfico en los cruces dejando actuar a unos y deteniendo a otros. Además, esta Unidad de Control usa una serie de registros especiales como son: un ***registro de instrucciones** (o RI) donde se almacena la instrucción que se está ejecutando y un **contador de programa** (o PC) donde se almacena la dirección de la memoria donde está la instrucción que se está ejecutando.
+- Una **Unidad de Control** que manda señales al resto de componentes para que todas las partes estén sincronizadas, para lo cual usa un reloj que emite *ticks* a una frecuencia dada. Se comporta como los semáforos que regulan el tráfico en los cruces dejando actuar a unos y deteniendo a otros. Además, esta Unidad de Control usa una serie de registros especiales como son: un ***registro de instrucciones** (o RI) donde se almacena la instrucción que se está ejecutando y un **contador de programa** (o PC) donde se almacena la dirección de la memoria donde está la instrucción que se está ejecutando.
+
+![Unidad de Control](./img/unidad_control.png)
 
 ## Memoria principal
 

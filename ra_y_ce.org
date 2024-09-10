@@ -49,7 +49,7 @@
 - f) Se ha generado código a partir de un diagrama de clases.
 - g) Se ha generado un diagrama de clases mediante ingeniería inversa.
 
-** Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando las herramientas disponibles en el entorno.
+** RA6. Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando las herramientas disponibles en el entorno.
 *** Criterios de evaluación
 - a) Se han identificado los distintos tipos de diagramas de comportamiento.
 - b) Se ha reconocido el significado de los diagramas de casos de uso.
