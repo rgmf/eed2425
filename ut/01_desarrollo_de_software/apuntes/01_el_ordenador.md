@@ -59,7 +59,7 @@ En la siguiente imagen tienes representada una memoria con estas característica
 
 ## Unidad de Entrada/Salida
 
-La **unidad de entrada/saslida**, o simplemente unidad de E/S, es el mecanismo que permite conectar al ordenador todo tipo de periféricos para ampliar las opciones de un ordenador. Por ejemplo, una impresora, un ratón o un teclado es conectado a este mecanismo.
+La **unidad de entrada/salida**, o simplemente unidad de E/S, es el mecanismo que permite conectar al ordenador todo tipo de periféricos para ampliar las opciones de un ordenador. Por ejemplo, una impresora, un ratón o un teclado es conectado a este mecanismo.
 
 # Tarea propuesta
 
