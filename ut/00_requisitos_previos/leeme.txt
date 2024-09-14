@@ -1,0 +1,7 @@
+Hay dos presentaciones:
+- Una para la jerarquía de directorios.
+- Otra para la terminal.
+
+En estas presentaciones se indica cuándo hacer las prácticas.
+
+Las prácticas de la terminal, las abriré yo y las haremos entre tod@s.

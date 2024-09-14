@@ -1,0 +1,60 @@
+Ruta relativa a la carpeta <strong>firefox</strong> desde <strong>etc</strong> {
+=firefox
+=firefox/
+}
+
+Ruta relativa al fichero <strong>cancion.mp3</strong> desde <strong>Descargas</strong> {
+=cancion.mp3
+}
+
+Ruta relativa al fichero <strong>cancion.mp3</strong> desde <strong>roman</strong> {
+=Descargas/cancion.mp3
+}
+
+Ruta relativa al fichero <strong>cancion.mp3</strong> desde <strong>gines</strong> {
+=../roman/Descargas/cancion.mp3
+}
+
+Ruta relativa a la raíz de la jerarquia desde la carpeta <strong>Descargas</strong> {
+=../../../
+=../../..
+}
+
+Ruta relativa al fichero <strong>anacron</strong> desde la carpeta personal del usuario <strong>roman</strong> {
+=../../etc/cron.d/anacron
+}
+
+Ruta relativa al fichero <strong>practica1.odt</strong> desde la carpeta <strong>trabajos</strong> {
+=../informatica/practica1.odt
+}
+
+Ruta relativa a la carpeta <strong>home</strong> desde <strong>roman</strong> {
+=../
+=..
+}
+
+Ruta relativa al fichero <strong>img.jpg</strong> desde la carpeta <strong>informatica</strong> {
+=../../Descargas/img.jpg
+}
+
+Ruta relativa al fichero <strong>php</strong> desde la carpeta <strong>trabajos</strong> {
+=../../../../etc/cron.d/php
+}
+
+Ruta absoluta a la carpeta <strong>etc</strong> {
+=/etc
+=/etc/
+}
+
+Ruta absoluta al fichero <strong>anacron</stron> {
+=/etc/cron.d/anacron
+}
+
+Ruta absoluta a la carpeta <strong>gines</strong> {
+=/home/gines
+=/home/gines/
+}
+
+Ruta absoluta al fichero de audio <strong>cancion.mp3</strong> {
+=/home/roman/Descargas/cancion.mp3
+}
