@@ -25,21 +25,37 @@ En los siguientes apartados detallamos cada una de estas partes de la arquitectu
 
 Conocida como **CPU** (Centra Procesing Unit), procesador o microprocesador, se encarga de todas las operaciones y el control del ordenador. Es la CPU lo que, en última instancia, estamos programando.
 
-En la CPU encontramos una **Unidad Aritmético Lógica** (ALU), una serie de **registros** y una **Unidad de Control** que te describo brevemente a continuación:
+En la CPU encontramos una **Unidad Aritmético Lógica** (ALU), una serie de **registros** y una **Unidad de Control** que te describo brevemente en los siguientes subapartados.
 
-- Una **Unidad Aritmético Lógica**, o **ALU** del inglés *Arithmetic Logic Unit*, es un circuito digital que realiza operaciones aritméticas (sumas, restas) y operaciones lógicas (IF, AND, OR, NOT, XOR) entre los valores de los argumentos (que pueden ser uno o dos, según el caso). Se representa, gráficamente, tal que así:
+### Registros de la CPU
+
+La CPU cuenta con una serie de **registros** que forman la memoria más rápida de la jerarquía de memoria de un ordenador. Se encuentran dentro de la CPU, y se usan para almacenar operandos y resultados de las operaciones que hace la CPU. Los registros se miden por el número de bits que almacenan, por ejemplo: un registro de 8 bits, o un registros de 32 bits, o un registro de 64 bits. Dependiendo de la arquitectura se tienen más o menos registros de más o menos bits.
+
+> Investiga: ¿qué tamaño tienen los registros de las CPU actuales?, ¿cuántos registro tiene un microprocesador actual?, ¿de qué orden de magnitod es más rápido un registro con respecto a la memoria principal?
+
+> En [esta web](https://wiki.osdev.org/CPU_Registers_x86-64) puedes ver los registros disponibles en las arquitecturas `x86_64` de 64 bits.
+
+> Si quieres entrar en los detalles físicos lo puedes hacer en [esta otra web](http://www.righto.com/2020/07/the-intel-8086-processors-registers.html). La visita a esta web es muy recomendable si quieres ver fotos reales de la circuitería dentro de una CPU (en este caso el *micro* **Intel 8086**).
+
+### Unidad Aritmético Lógica (ALU)
+
+Una **Unidad Aritmético Lógica**, o **ALU** del inglés *Arithmetic Logic Unit*, es un circuito digital que realiza operaciones aritméticas (sumas, restas) y operaciones lógicas (IF, AND, OR, NOT, XOR) entre los valores de los argumentos (que pueden ser uno o dos, según el caso). Se representa, gráficamente, tal que así:
 
 ![ALU](./img/alu_simbolo.png)
 
 > Si sientes curiosidad puedes visitar este sitio web donde encontrarás [detalles de cómo funciona una ALU](https://hardzone.es/reportajes/que-es/alu/).
 
-- Una serie de **registros** que forman la memoria más rápida de la jerarquía de memoria de un ordenador. Se encuentran dentro de la CPU, y se usan para almacenar operandos y resultados de las operaciones que hace la CPU. Los registros se miden por el número de bits que almacenan, por ejemplo: un registro de 8 bits, o un registros de 32 bits, o un registro de 64 bits. Dependiendo de la arquitectura se tienen más o menos registros de más o menos bits.
+Los datos sobre los que opera son tomandos de los registros de la CPU. Los resultados son guardados, también, en registros de la CPU.
 
-> Investiga: ¿qué tamaño tienen los registros de las CPU actuales?, ¿cuántos registro tiene un microprocesador actual?, ¿de qué orden de magnitod es más rápido un registro con respecto a la memoria principal?
+Además, la ALU tiene una serie de registros especiales llamados **FLAGS** donde se indican situaciones que se han podido dar al operar, como **overflow**.
 
-- Una **Unidad de Control** que manda señales al resto de componentes para que todas las partes estén sincronizadas, para lo cual usa un reloj que emite *ticks* a una frecuencia dada. Se comporta como los semáforos que regulan el tráfico en los cruces dejando actuar a unos y deteniendo a otros. Además, esta Unidad de Control usa una serie de registros especiales como son: un ***registro de instrucciones** (o RI) donde se almacena la instrucción que se está ejecutando y un **contador de programa** (o PC) donde se almacena la dirección de la memoria donde está la instrucción que se está ejecutando.
+### Unidad de Control
+
+La **Unidad de Control** es la encargada de enviar señales al resto de componentes para que todas las partes estén sincronizadas, para lo cual usa un reloj que emite *ticks* a una frecuencia dada. Se comporta como los semáforos que regulan el tráfico en los cruces dejando actuar a unos y deteniendo a otros. Además, esta Unidad de Control usa una serie de registros especiales como son: un ***registro de instrucciones** (o RI) donde se almacena la instrucción que se está ejecutando y un **contador de programa** (o PC) donde se almacena la dirección de la memoria donde está la instrucción que se está ejecutando.
 
 ![Unidad de Control](./img/unidad_control.png)
+
+> La lectura y visualización de las imágenes de [esta web](http://www.righto.com/2020/06/a-look-at-die-of-8086-processor.html) te pueden resultar interesantes.
 
 ## Memoria principal
 
