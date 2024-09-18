@@ -25,6 +25,22 @@ El sistema operativo es, en realidad, un conjunto de programas de sistema que ge
 - **Administrar la información** para el buen funcionamiento del PC.
 - Dirigir las autorizaciones de uso para los **usuarios**.
 
+Entre las tareas que realiza el Sistema Operativo me he dejado aquella a la que más importancia vamos a dar nosotros: a **La Gestión de Procesos**.
+
+## Gestión de procesos
+
+Los primeros ordenadores, y los primeros sitemas operativos, eran muy simples en este aspecto porque solo se ejecutaba un programa cada vez. Así pues, todos los recursos (CPU, memoria, etc) los tenía en exclusividad el programa que se estaba ejecutando. Si querías ejecutar otro programa, el primero tenía que terminar y dejar paso al segundo.
+
+> Antes de continuar: a un programa en ejecución se le conoce como **proceso**. A partir de ahora, usaré este término para los programas que están en ejecución.
+
+Hoy en día la gestión de procesos es mucho más complicada porque hay multitud de procesos en ejecución, y todos ellos compiten por los recursos: tiempo de CPU, espacio en memoria, acceso a periféricos, etc. Y es aquí donde el Sistema Operativo pone orden ofreciendo a todos los procesos la posibilidad de acceder a los recursos para que puedan realizar sus tareas.
+
+En esta captura de pantalla puedes ver unos cuentos procesos en ejecución, en mi portátil, justo en el momento en que escribo estas líneas:
+
+![Procesos en ejecución](./img/procesos_ejecucion.png)
+
+Cada línea es un proceso y se puede ver, entre otras cosas: el porcentaje de CPU y de memoria que está consumiendo cada proceso.
+
 # Aplicaciones
 
 Las aplicaciones son **programas de usuario** y son escritas por medio de **lenguajes de programación**.
