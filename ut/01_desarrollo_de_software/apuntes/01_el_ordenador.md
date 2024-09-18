@@ -51,16 +51,23 @@ Esta es la memoria del ordenador que nosotros solemos conocer coloquialmente com
 
 En la siguiente imagen tienes representada una memoria con estas características:
 
-- **Arquitectura de 8 bits**: cada fila consta de 8 bits (cada una de las celdas es un bit).
-- Las direcciones son de la primera celda de cada fila y están dadas en hexadecimal (los número comienzan con el prefijo **0x** para indicar que dicho número está en formato hexadecimal).
-- Se trata, pues, de una **memoria 256 bytes**, es decir, hay **2 048 bits** o celdas.
+- **Arquitectura de 8 bits**: registros de la CPU de 8 bits y filas de la memoria RAM de 8 bits (cada una de las celdas es un bit).
 
-![Representación de una memoria de 256 bytes](./img/memoria_265bytes.png)
+> En la práctica, las arquitecturas de 8 bits de los inicios de la computación tenían buses de 16 bits y, por tanto, cada fila de la memoria tenía 16 bits. Por simplificar, nosotros vamos a considerar que tenemos memorias con filas de 8 bits.
+
+- Las direcciones que se indican son de la fila, pero cada fila tiene 8 bits. Por otro lado, las direcciones se indican en hexadecimal, no en decimal.
+- Se trata, pues, de una **memoria de 256 bytes**, es decir, hay **2 048 bits** o celdas.
+
+![Representación de una memoria de 256 bytes](./img/memoria_256bytes.png)
 
 ## Unidad de Entrada/Salida
 
 La **unidad de entrada/salida**, o simplemente unidad de E/S, es el mecanismo que permite conectar al ordenador todo tipo de periféricos para ampliar las opciones de un ordenador. Por ejemplo, una impresora, un ratón o un teclado es conectado a este mecanismo.
 
-# Tarea propuesta
+**Tradicionalmente** han existido dos *chips* encargados del acceso al exterior, a periféricos. De alguna manera, la CPU deleta en estos dos chips la comunicación con otros componentes o periféricos:
 
-Haz un esquema de lo estudiado hasta ahora.
+- **North Bridge**: responsable de tareas de alto rendimiento como son la conexión a la memoria RAM, a la GPU (tarjeta gráfica) o los buses PCIe.
+
+- **South Bridge**: conecta periféricos como pueden ser todos aquellos conectados a puertos USB, RJ-45 (red), Bluetooth, etc.
+
+**Actualmente**, gran parte de toda esta circuitería está integrada y dentro de la misma CPU. En concreto, la CPU, hoy en día, está conectada directamente a la GPU o la memoria RAM. El resto se conecta a través de un único *chip* llamado **PCH** (*Platform Controller Hub*) o simplemente **chipset**.

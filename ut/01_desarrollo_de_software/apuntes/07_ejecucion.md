@@ -15,11 +15,11 @@ Necesitas tener presente la arquitectura de von Neumann para entender todo lo qu
 
 Antes, vamos a recordar cómo es una memoria, a nivel físico, en la Arquitectura von Neumann. En la imagen tienes representada una memoria con estas características:
 
-- **Arquitectura de 8 bytes**: cada fila consta de 8 bits (cada una de las celdas es un bit).
-- Las direcciones son de la primera celda de cada fila y están dadas en hexadecimal (los número comienzan con el prefijo **0x** para indicar que dicho número está en formato hexadecimal).
-- Se trata, pues, de una **memoria de 4GiB**, es decir, hay **4 294 967 295 celdas o bits**.
+- **Arquitectura de 8 bytes**: registros de la CPU de 8 bits y filas de la memoria RAM de 8 bits (cada una de las celdas es un bit).
+- Las direcciones son de las filas de la memoria y están dadas en hexadecimal (los número comienzan con el prefijo **0x** para indicar que dicho número está en formato hexadecimal).
+- Se trata, pues, de una **memoria de 256 bytes**, es decir, hay **2 048 celdas o bits**.
 
-![Representación de una memoria de 4GiB](./img/memoria_4gib.png)
+![Representación de una memoria de 4GiB](./img/memoria_256bytes.png)
 
 Cuando ejecutas un programa (abres un programa) el sistema operativo se encarga de cargarlo en la memoria principal. Como, en dicha memoria, pudiera haber más programas porque, hoy en día, se pueden estar ejecutando varios programas al mismo tiempo en un mismo ordenador, el sistema operativo utiliza una serie de algoritmos para buscar un lugar donde cargar el nuevo programa a ejecutar.
 

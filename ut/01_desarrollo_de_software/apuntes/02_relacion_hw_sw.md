@@ -15,7 +15,7 @@ Como ves en el siguiente gráfico, solo el sistema operativo (que es un software
 
 En el mundo de los ordenadores personales hay tres sistemas operativos más o menos populares, que seguramente ya conocerás: Windows, MacOS y Linux.
 
-En el ámbito de los dispositivos móviles se tiene dos plataformas populares: Android y iOS.
+En el ámbito de los dispositivos móviles se tienen dos plataformas populares: Android y iOS.
 
 El sistema operativo es, en realidad, un conjunto de programas de sistema que gestiona los recursos hardware y provee servicios (una interfaz) a los programas de aplicación. Resumiendo, sus funciones principales son:
 
