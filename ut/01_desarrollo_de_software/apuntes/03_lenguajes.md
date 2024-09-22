@@ -27,6 +27,8 @@ Más tarde aparecen las tarjetas perforadas, y con ello lo que podríamos consid
 
 En estas tarjetas se escribían instrucciones para la CPU a programar. Cada CPU tiene un conjunto de instrucciones. Si quieres programar en lenguaje máquina tienes que aprender a usar el juego de instrucciones de la CPU a programar, y no te servirá para otra CPU.
 
+> En la película "Piratas de Silicon Valley" puedes ver una escena en la que aparecen Bill Gates y Paul Allen revisando un programa escrito por medio de tarjetas perforadas: [ver escena en Youtube](https://www.youtube.com/watch?v=gxNXPFIJsI4).
+
 Por ejemplo, en las CPU de arquitectura MIPS todas las instrucciones son de 32 bits. Te muestro, a continuación, la instrucción que se usaría para cargar el valor que hay en la dirección de memoria 68 a partir de la 8ª celda al registro número 3:
 
 ```asm
@@ -47,6 +49,21 @@ Estos son los significados de los bits:
    |
    +------------------------------------- Código de operación: 35 en decimal
 ```
+
+Otro ejemplo, pero esta vez, más completo y para arquitectura *x86_64* sería el siguiente programa en el que se suman los números 10 y 14 para dejar el resultado en el registro `%eax` de la CPU:
+
+```asm
+10111000 00001110 00000000 00000000 00000000
+10111011 00001010 00000000 00000000 00000000
+00000001 11011000
+```
+
+En el ejemplo de arriba:
+
+- Hay tres instrucciones
+- La primera instrucción mueve el número 14 al registro %eax
+- La segunda instrucción mueve el número 10 al registro %ebx
+- La tercera y última instrucción suma el contenido de los registros %eax y %ebx dejando el resultado en el registro %eax
 
 Hoy en día, nadie usa el lenguaje máquina para programar.
 
@@ -102,7 +119,7 @@ Vemos como, una vez traducido a lenguaje máquina:
 - El número 61 en hexadecimal es el `01100001` en binario
 - Todo junto nos da como instrucción en lenguaje máquina el `1011000001100001`
 
-Por último, te muestro un programa escrito en ensamblador para CPU de arquitectura x86 que suma los números 14 y 10:
+Por último, te muestro un programa escrito en ensamblador para CPU de arquitectura *x86_64* que suma los números 14 y 10 (y que ya vimos en binario):
 
 ```asm
 .globl main
