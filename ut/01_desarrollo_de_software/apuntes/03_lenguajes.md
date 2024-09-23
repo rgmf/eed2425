@@ -65,7 +65,15 @@ En el ejemplo de arriba:
 - La segunda instrucción mueve el número 10 al registro %ebx
 - La tercera y última instrucción suma el contenido de los registros %eax y %ebx dejando el resultado en el registro %eax
 
-Hoy en día, nadie usa el lenguaje máquina para programar.
+Antes de terminar, verás que los programas en lenguaje máquina se suelen representar en hexadecimal, y no en binario, porque es más fácil de entender y son mucho más cortos (piensa que un carácter en hexadecimal representa a 4 en binario, lo que quiere decir que son 4 veces más cortos). Por ejemplo, el programa anterior en hexadecimal quedaría tal que así:
+
+```asm
+B8 0E 00 00 00
+BB 0A 00 00 00
+01 D8
+```
+
+En cualquiercaso, hoy en día, nadie usa el lenguaje máquina para programar.
 
 ## Lenguaje ensamblador
 
