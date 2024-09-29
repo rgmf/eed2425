@@ -12,13 +12,82 @@ En los lenguajes interpretados, el programa traductor se llama **intérprete** y
 
 En los lenguajes compilados, el programa traductor se llama **compilador** y traduce todo el programa a lenguaje máquina generando un segundo fichero con dicha traducción.
 
-> Ejemplos de lenguajes interpretados son: **Python** o **PHP**. Ejemplos de lenguajes compilados son: **C** o **Java**. Aunque el compilador de Java, como veremos más adelante, genera un código máquina intermedio que será ejecutado por una máquina virtual.
-
 Sea interpretado o compilado el programa es ejecutado por medio del sistema operativo y, dicho código, está preparado para ser ejecutado en una arquitectura de CPU concreta (x86-32, x86-64, MIPS, ARM, etc). Este es el encargado de cargar el programa ejecutable en memoria y gestionar su ejecución por medio de una serie de algoritmos de gestión de procesos.
 
-En el siguiente apartado te voy a explicar cómo funciona un compilador.
+Por último, cabe mencionar que existen lenguajes con compilación **JIT (Just-in-Time)** que están a medio camino entre lenguaje compilado e interpretado.
+
+> Ejemplos de lenguajes interpretados son: **Python** o **PHP**. Ejemplos de lenguajes compilados son: **C** o **C++**. Por último, ejemplos de lenguajes con compilación JIT son **Java**, **C#** o **Kotlin**.
+
+## Características de los lenguajes compilados
+
+Los lenguajes compilados usan un programa traductor llamado compilador, como ya he comentado, y **generan código nativo**.
+
+Suelen ser más rápidos que los lenguajes interpretados pero tienen dos desventajas: necesitan tiempo extra necesario para completar la compilación antes de poder ejecutar el programa; y dependen de la plataforma del código binario generado.
+
+## Características de los lenguajes interpretados
+
+Dado que el código lo ejecutan los propios intérpretes, el código en sí es independiente de la plataforma.
+
+La desventaja más notable es la velocidad de ejecución comparada con los lenguajes compilados a código nativo.
+
+## Características de la compilación justo a tiempo o JIT
+
+Mezcla entre compilación e interpretación. En lugar de compilar todo el programa antes de ejecutarse (como en los lenguajes compilados), o interpretarlo línea por línea (como en los lenguajes interpretados), un compilador JIT compila ciertas porciones del código en tiempo de ejecución, justo antes de que se necesiten.
+
+Las desventajas de estos lenguajes son, básicamente dos: hay una sobrecarga por la compilación en tiempo de ejecución; y el rendimiento puede variar según cómo se implementa el JIT.
+
+## En resumen
+
+<table>
+<thead>
+  <tr>
+    <th>&nbsp;</th>
+    <th>Compiladores</th>
+    <th>Intérpretes</th>
+    <th>Traductores Just-in-Time (JIT)</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>
+      Ventajas
+    </td>
+    <td>
+      Mayor rendimiento en la ejecución porque el código ya está en lenguaje máquina.<br>
+      Una vez compilado, no es necesario recompilar mientras no cambie el código fuente.
+    </td>
+    <td>
+      El código es multiplataforma (mientras haya un intérprete disponible para cada sistema operativo).<br>
+      Cambios en el código se pueden probar de inmediato sin recompilación.
+    </td>
+    <td>
+      Combina la flexibilidad de los lenguajes interpretados con el rendimiento de los lenguajes compilados.<br>
+      La optimización en tiempo de ejecución permite mejorar el rendimiento, ya que el compilador JIT puede aplicar optimizaciones según el comportamiento real del programa.
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      Desventajas
+    </td>
+    <td>
+      El proceso de compilación puede ser lento y es necesario recompilar si hay cambios en el código.<br>
+      Dependencia de la plataforma: el ejecutable generado normalmente es específico para un sistema operativo o arquitectura.
+    </td>
+    <td>
+      La ejecución es más lenta en comparación con los lenguajes compilados, ya que se traduce y ejecuta el código línea por línea en tiempo de ejecución.
+    </td>
+    <td>
+      Aún hay una sobrecarga por la compilación en tiempo de ejecución.<br>
+      El rendimiento puede variar según cómo se implementa el JIT.
+    </td>
+  </tr>
+</tbody>
+</table>
 
 # Compiladores: proceso de traducción
+
+Vamos a centrarnos en los compiladores y el proceso de traducción de estos.
 
 Todo comienza cuando **el programador escribe el código fuente**, normalmente en varios ficheros.
 
