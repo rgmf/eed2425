@@ -115,7 +115,7 @@ Si quieres ejecutar en tu ordenador programas en Java, tienes que instalar el **
 
 Esquema de la arquitectura general de un programa en ejecución en una JVM:
 
-![Esquema ejecución código Java](java_bytecode.png)
+![Esquema ejecución código Java](./img/java_bytecode.png)
 
 Por último, aquí te muestro el código fuente de un programa en Java que suma dos números y muestra el resultado por pantalla:
 
