@@ -6,7 +6,7 @@
 
 # Traductores de código
 
-Existen dos tipos de lenguajes de programación en cuanto a la forma de obtener el código máquina o ejecutable: **lenguajes interpretados y lenguajes compilados**.
+Existen dos tipos de lenguajes de programación en cuanto a la forma de obtener el código máquina o ejecutable: **lenguajes interpretados y lenguajes compilados**. Además, también cabe señalar, que existe un tercer tipo de lenguajes en base a la traducción que hacen: **lenguajes JIT** o Just-in-Time, que están a medio camino entre la compilación y la interpretación.
 
 En los lenguajes interpretados, el programa traductor se llama **intérprete** y es el encargado de ir traduciendo el programa a medida que sea necesario, típicamente instrucción a instrucción, y normalmente no guardan el resultado de esa traducción.
 
@@ -32,7 +32,9 @@ La desventaja más notable es la velocidad de ejecución comparada con los lengu
 
 ## Características de la compilación justo a tiempo o JIT
 
-Mezcla entre compilación e interpretación. En lugar de compilar todo el programa antes de ejecutarse (como en los lenguajes compilados), o interpretarlo línea por línea (como en los lenguajes interpretados), un compilador JIT compila ciertas porciones del código en tiempo de ejecución, justo antes de que se necesiten.
+Mezcla entre compilación e interpretación. En lugar de compilar todo el programa antes de ejecutarse (como en los lenguajes compilados), o interpretarlo línea por línea (como en los lenguajes interpretados), un compilador JIT compila ciertas porciones del código en tiempo de ejecución, justo antes de que se necesiten, convirtiendo dicho código máquina a nativo.
+
+Dado que el código compilado a nativo suele ser código crítico o muy utilizado se gana en rendimiento con respecto a los lenguajes puramente interpretados, aunque sin ser lenguajes compilados a código nativo 100%.
 
 Las desventajas de estos lenguajes son, básicamente dos: hay una sobrecarga por la compilación en tiempo de ejecución; y el rendimiento puede variar según cómo se implementa el JIT.
 
@@ -99,7 +101,7 @@ Este proceso se resumen en la siguiente imagen:
 
 ![Proceso de traducción por un compilador](./img/fases_compilador.png)
 
-> El compilador genera el código ejecutable para una CPU y sistema operativo concreto. Si quieres tener el programa listo para ser ejecutado en CPU MIPS, x86-64 y ARM, entonces tienes que compilar el programa 3 veces, para obtener el código ejecutable en cada una de estas tres arquitecturas.
+El compilador genera el código ejecutable para una CPU y sistema operativo concreto. Si quieres tener el programa listo para ser ejecutado en CPU MIPS, x86-64 y ARM, entonces tienes que compilar el programa 3 veces, para obtener el código ejecutable en cada una de estas tres arquitecturas. Es por ello que a este código se conoce también como **código nativo**.
 
 # Código intermedio y máquinas virtuales
 
@@ -109,7 +111,9 @@ Hay lenguajes, como Java, para los que **el compilador genera un código interme
 
 De esta manera no hace falta compilar el código fuente varias veces para ser ejecutado en varias CPU, se construye un código genérico ejecutable por cualquier máquina. No obstante, **para poder ejecutar estos programas** antes necesitas **instalar la máquina virtual** en tu ordenador.
 
-Siguiendo con el **ejemplo de Java**, este tiene un compilador, **javac**, que genera código intermedio (**bytecode**) para ser ejecutado por la **Java Virtual Machine** o **JVM**.
+Siguiendo con el **ejemplo de Java**, este tiene un compilador, **javac**, que genera código intermedio (**bytecode**) para ser ejecutado por la **Java Virtual Machine** o **JVM**. La siguiente imagen representa este proceso:
+
+![Ejecución en la JVM](./img/codigo_intermedio.png)
 
 Si quieres ejecutar en tu ordenador programas en Java, tienes que instalar el **JRE** (**Java Runtime Environment**). Si quieres desarrollar programas en Java, entonces necesitas instalar el **JDK** (**Java Development Kit**), que incluye el JRE.
 

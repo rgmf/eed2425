@@ -7,7 +7,7 @@
 
 Hoy en día no se escribe código máquina directamente, así que se necesita de algún mecanismo o forma de obtener dicho código máquina que pueda ejecutar el ordenador.
 
-Antes tienes que saber que existen tres tipos de código: código **fuente**, código **objeto** y código  ***máquina** o ejecutable.
+Antes tienes que saber que existen tres tipos de código: código **fuente**, código **objeto** y código **máquina** o ejecutable.
 
 ## Código fuente
 
