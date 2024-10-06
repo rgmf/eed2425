@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="297mm"
+   height="35mm"
+   viewBox="0 0 297 35"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   sodipodi:docname="proceso_software.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.99618658"
+     inkscape:cx="549.09393"
+     inkscape:cy="362.88383"
+     inkscape:window-width="2560"
+     inkscape:window-height="1389"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ConcaveTriangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Concave triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.7)"
+         d="M -2,-4 9,0 -2,4 c 2,-2.33 2,-5.66 0,-8 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         id="path8" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4"
+       transform="matrix(0.68536575,0,0,0.68536575,-1.055713,-52.205741)">
+      <rect
+         style="fill:#9eb7e1;fill-opacity:1;stroke-width:1.85208;stroke-linecap:square"
+         id="rect1"
+         width="60.165707"
+         height="20.95063"
+         x="6.1730719"
+         y="81.735146"
+         ry="5.1307354" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:6.59122px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light';fill:#9eb7e1;fill-opacity:1;stroke-width:2.88366;stroke-linecap:square"
+         x="20.296713"
+         y="94.830048"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="fill:#0f192a;fill-opacity:1;stroke-width:2.88366"
+           x="20.296713"
+           y="94.830048">Análisis</tspan></text>
+    </g>
+    <g
+       id="g5"
+       transform="matrix(0.68536575,0,0,0.68536575,-2.264552,-52.205741)">
+      <rect
+         style="fill:#9ee1c2;fill-opacity:1;stroke-width:1.85208;stroke-linecap:square"
+         id="rect2"
+         width="60.165714"
+         height="20.95063"
+         x="80.256378"
+         y="81.735146"
+         ry="5.1307354" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:6.59122px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light';fill:#154127;fill-opacity:1;stroke-width:2.88366;stroke-linecap:square"
+         x="98.137024"
+         y="94.764137"
+         id="text2"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           style="fill:#154127;fill-opacity:1;stroke-width:2.88366"
+           x="98.137024"
+           y="94.764137">Diseño</tspan></text>
+    </g>
+    <g
+       id="g6"
+       transform="matrix(0.68536575,0,0,0.68536575,46.57528,-52.205741)">
+      <rect
+         style="fill:#d1e19e;fill-opacity:1;stroke-width:1.85208;stroke-linecap:square"
+         id="rect3"
+         width="60.165722"
+         height="20.95063"
+         x="154.33992"
+         y="81.735146"
+         ry="5.1307354" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:6.59122px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light';fill:#5a5a1d;fill-opacity:1;stroke-width:2.88366;stroke-linecap:square"
+         x="176.46262"
+         y="94.498795"
+         id="text3"><tspan
+           sodipodi:role="line"
+           id="tspan3"
+           style="fill:#5a5a1d;fill-opacity:1;stroke-width:2.88366"
+           x="176.46262"
+           y="94.498795">Test</tspan></text>
+    </g>
+    <rect
+       style="fill:#b6d5d3;fill-opacity:1;stroke-width:1.26935;stroke-linecap:square"
+       id="rect4"
+       width="41.235493"
+       height="14.358845"
+       x="201.92001"
+       y="3.8127306"
+       ry="3.5164304" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:4.5174px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light';fill:#203836;fill-opacity:1;stroke-width:1.97636;stroke-linecap:square"
+       x="207.18556"
+       y="12.734251"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="fill:#203836;fill-opacity:1;stroke-width:1.97636"
+         x="207.18556"
+         y="12.734251">Explotación</tspan></text>
+    <path
+       style="fill:#382a20;fill-opacity:1;stroke:#000000;stroke-width:0.272005;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
+       d="m 44.828072,10.992149 h 6.028259"
+       id="path7" />
+    <path
+       style="fill:#382a20;fill-opacity:1;stroke:#000000;stroke-width:0.272005;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
+       d="m 144.56305,10.992149 h 6.02826"
+       id="path9" />
+    <path
+       style="fill:#382a20;fill-opacity:1;stroke:#000000;stroke-width:0.272005;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
+       d="m 194.04219,10.992149 h 6.02826"
+       id="path10" />
+    <rect
+       style="fill:#d9bdd9;fill-opacity:1;stroke-width:1.26935;stroke-linecap:square"
+       id="rect10"
+       width="41.235519"
+       height="14.358845"
+       x="102.78925"
+       y="3.8127306"
+       ry="3.5164304" />
+    <text
+       xml:space="preserve"
+       style="font-weight:300;font-size:4.5174px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light';fill:#41153f;fill-opacity:1;stroke-width:1.97636;stroke-linecap:square"
+       x="109.48418"
+       y="12.74236"
+       id="text10"><tspan
+         sodipodi:role="line"
+         id="tspan10"
+         style="fill:#41153f;fill-opacity:1;stroke-width:1.97636"
+         x="109.48418"
+         y="12.74236">Desarrollo</tspan></text>
+    <path
+       style="fill:#382a20;fill-opacity:1;stroke:#000000;stroke-width:0.272005;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
+       d="m 94.87691,10.992149 h 6.02823"
+       id="path11" />
+    <g
+       id="g11"
+       transform="matrix(0.68536575,0,0,0.68536575,99.041896,-52.205741)">
+      <rect
+         style="fill:#d5c2b6;fill-opacity:1;stroke-width:1.85208;stroke-linecap:square"
+         id="rect11"
+         width="60.165676"
+         height="20.95063"
+         x="223.13165"
+         y="81.735146"
+         ry="5.1307354" />
+      <text
+         xml:space="preserve"
+         style="font-weight:300;font-size:6.59122px;font-family:'Fira Code';-inkscape-font-specification:'Fira Code Light';fill:#382a20;fill-opacity:1;stroke-width:2.88366;stroke-linecap:square"
+         x="227.01353"
+         y="94.752304"
+         id="text11"><tspan
+           sodipodi:role="line"
+           id="tspan11"
+           style="fill:#382a20;fill-opacity:1;stroke-width:2.88366"
+           x="227.01353"
+           y="94.752304">Mantenimiento</tspan></text>
+    </g>
+    <path
+       style="fill:#382a20;fill-opacity:1;stroke:#000000;stroke-width:0.272005;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
+       d="m 244.09105,10.992149 h 6.02827"
+       id="path12" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.272005;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ConcaveTriangle)"
+       d="m 283.56769,19.070133 c 0,0 -0.39695,13.00443 -11.68831,13.00443 -11.29135,0 -11.37952,-11.566264 -11.37952,-11.566264"
+       id="path13"
+       sodipodi:nodetypes="czc" />
+  </g>
+</svg>
