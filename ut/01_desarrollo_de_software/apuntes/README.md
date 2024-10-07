@@ -49,14 +49,14 @@
             5.3. Formatos ejecutables<br>
         </p>
         <p>
-          6. Fases en el desarrollo de un programa<br>
-            6.1. Fase de codificación<br>
-            6.2. Fase de generación<br>
-            6.3. Fase de corrección de errores<br>
-            6.4. Fase de pruebas<br>
-            6.5. Fase de depuración<br>
-            6.6. Fase de mantenimiento<br>
-            6.7. Herramientas de desarrollo<br>
+          6. Práctica guiada: lenguajes compilados e intérpretados, generación de código<br>
+        </p>
+        <p>
+          7. Ingeniería del software<br>
+            7.1. Proceso de creación de software<br>
+            7.2. Fases de desarrollo de software<br>
+            7.3. Fase de corrección de errores<br>
+            7.4. Herramientas de desarrollo<br>
         </p>
         <p>
           7. Ejecución de un programa en un ordenador<br>
@@ -81,5 +81,6 @@
 3. [Lenguajes de programación: evolución histórica](03_lenguajes.md)
 4. [Código fuente, objeto y ejecutable](04_codigo.md)
 5. [Traductores de código](05_traductores_codigo.md)
-6. [Fases en el desarrollo de un programa](06_fases_desarrollo.md)
-7. [Ejecución de un programa en un ordenador](07_ejecucion.md)
+6. [Práctica guiada: lenguajes compilados e intérpretados, generación de código](06_practica_guiada.md)
+7. [Ingeniería del software](07_ingenieria_software.md)
+8. [Ejecución de un programa en un ordenador](08_ejecucion.md)
