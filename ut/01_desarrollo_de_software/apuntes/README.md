@@ -52,14 +52,17 @@
           6. Práctica guiada: lenguajes compilados e intérpretados, generación de código<br>
         </p>
         <p>
-          7. Ingeniería del software<br>
-            7.1. Proceso de creación de software<br>
-            7.2. Fases de desarrollo de software<br>
-            7.3. Fase de corrección de errores<br>
-            7.4. Herramientas de desarrollo<br>
+          7. Práctica guiada: lenguajes que generan código intermedio o bytecode como Java<br>
         </p>
         <p>
-          7. Ejecución de un programa en un ordenador<br>
+          8. Ingeniería del software<br>
+            8.1. Proceso de creación de software<br>
+            8.2. Fases de desarrollo de software<br>
+            8.3. Fase de corrección de errores<br>
+            8.4. Herramientas de desarrollo<br>
+        </p>
+        <p>
+          9. Ejecución de un programa en un ordenador<br>
         </p>
       </td>
       <td>
@@ -82,5 +85,6 @@
 4. [Código fuente, objeto y ejecutable](04_codigo.md)
 5. [Traductores de código](05_traductores_codigo.md)
 6. [Práctica guiada: lenguajes compilados e intérpretados, generación de código](06_practica_guiada.md)
-7. [Ingeniería del software](07_ingenieria_software.md)
-8. [Ejecución de un programa en un ordenador](08_ejecucion.md)
+7. [Práctica guiada: lenguajes que generan código intermedio o bytecode como Java](07_practica_guiada.md)
+8. [Ingeniería del software](08_ingenieria_software.md)
+9. [Ejecución de un programa en un ordenador](09_ejecucion.md)
