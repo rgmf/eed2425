@@ -99,7 +99,7 @@ Fíjate en algo **muy importante** y es que no especifico el nombre completo del
 Cuando ejecutamos `java` (la JVM) se llevan a cabo estos pasos:
 
 1. Se coge el fichero `.class` con el bytecode (código intermedio)
-2. Se genera el código máqina correspondiente al ordenador en el que se está (arquitectura de CPU y Sistema Operativo)
+2. Se genera el código máquina correspondiente al ordenador en el que se está (arquitectura de CPU y Sistema Operativo)
 3. Se ejecuta dicho código máquina
 
 Recuerda que ese proceso de generación del código máquina ejecutable se hace por medio de un compilador **JIT** (*Just-In-Time*).
