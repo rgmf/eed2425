@@ -25,6 +25,12 @@
           1.1. Sistema de control de versiones<br>
           1.2. Terminología
         </p>
+        <p>
+          2. Git: primeros pasos<br>
+          2.1. ¿Qué es Git?<br>
+          2.2. Instalación<br>
+          2.3. Configuración
+        </p>
       </td>
       <td>
         CE4f. Se ha realizado el control de versiones integrado en el entorno de desarrollo.
@@ -36,3 +42,4 @@
 # Índice de contenidos
 
 1. [Control de versiones](01_control_versiones.md)
+2. [Git: introducción y configuración](02_git_primeros_pasos.md)
