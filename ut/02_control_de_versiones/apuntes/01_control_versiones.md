@@ -60,9 +60,9 @@ Es el desarrollador quien decide cuándo se realizará una versión con todos lo
 
 ## Commit
 
-Es un término muy utilizado porque es el nombre técnico que se le da la **conjunto de cambios que forman una revisión o versión**.
+Es un término muy utilizado porque es el nombre técnico que se le da al **conjunto de cambios que forman una revisión o versión**.
 
-Así pues, un desarrollador realizan cambios en los ficheros de un repositorio. En algún momento decide crear una revisión o versión con todos esos cambios. Para ello crear lo que denominamos como **commit**.
+Así pues, un desarrollador realiza cambios en los ficheros de un repositorio. En algún momento decide crear una revisión o versión con todos esos cambios. A esa revisión o versión con los cambios lo denominamos **commit**.
 
 Gráficamente, podemos representar a estos *commits* como puntos con los cambios introducidos a lo largo del tiempo.
 
@@ -70,13 +70,19 @@ Gráficamente, podemos representar a estos *commits* como puntos con los cambios
 
 ## HEAD
 
-A la última versión se le suele identificar de forma especial con el nombre **HEAD**
+A la última versión se le suele identificar de forma especial con el nombre **HEAD**. Así, en la representación anterior, el *HEAD* sería el *commit 3*:
+
+![Representación commits con HEAD](./img/representacion_commits_con_head.png)
 
 ## Tag y release
 
 Con los **tag** consigues marcar, rotular o señalar, una versión concreta en el histórico de cambios del control de versiones, destacándola por alguna razón. Esto hace que se puedan identificar de forma fácil revisiones importantes del proyecto.
 
 Se suelen destacar con estos **tag** los puntos en que se liberan nuevas versiones del software (*release*), de ahí que los términos **tag** y **release** estén relacionados.
+
+En el ejemplo gráfico anterior, hemos rotulado o añadido un *tag* al *commit 2* creando la *release* a la que se la ha asignado el nombre "v1.0.0":
+
+![Representación commits con HEAD](./img/representacion_commits_con_head_y_tag.png)
 
 ## Línea base, *baseline* o *trunk*
 
