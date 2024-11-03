@@ -50,10 +50,6 @@ Y a todo tipo de acciones:
 - Fichero/s borrado/s
 - Fichero/s modificado/s
 
-## Commit
-
-Es un término muy utilizado porque es el nombre técnico que se le da a un cambio.
-
 ## Revisión o versión
 
 Una **revisión** es un versión determinada de la información que se gestiona. Hay sistemas que identifican las revisiones con un contador (por ejemplo Subversion) y otros sistemas que identifican cada una de las versiones mediante un *hash* como puede ser *SHA1* (por ejemplo Git).
@@ -61,6 +57,16 @@ Una **revisión** es un versión determinada de la información que se gestiona.
 > No confundir versión en este contexto con versión de software.
 
 Es el desarrollador quien decide cuándo se realizará una versión con todos los ambios realizados.
+
+## Commit
+
+Es un término muy utilizado porque es el nombre técnico que se le da la **conjunto de cambios que forman una revisión o versión**.
+
+Así pues, un desarrollador realizan cambios en los ficheros de un repositorio. En algún momento decide crear una revisión o versión con todos esos cambios. Para ello crear lo que denominamos como **commit**.
+
+Gráficamente, podemos representar a estos *commits* como puntos con los cambios introducidos a lo largo del tiempo.
+
+![Representación commits](./img/representacion_commits.png)
 
 ## HEAD
 
