@@ -16,3 +16,17 @@
     - d) Gestionar entornos de desarrollo adaptando su configuración en cada caso para permitir el desarrollo y despliegue de aplicaciones.
     - f) Desarrollar aplicaciones implementando un sistema completo de formularios e informes que permitan gestionar de forma integral la información almacenada.
     - v) Gestionar su carrera profesional, analizando las oportunidades de empleo, autoempleo y de aprendizaje.
+* 2.- Control de versiones
+** RA4. Optimiza código empleando las herramientas disponibles en el entorno de desarrollo
+*** Criterios de evaluación: f
+    - f) Se ha realizado el control de versiones integrado en el entorno de desarrollo.
+*** Objetivos generales: e, h, i, j
+    - e) Seleccionar y emplear lenguajes, herramientas y librerías, interpretando las especificaciones para desarrollar aplicaciones multiplataforma con acceso a bases de datos
+    - h) Emplear herramientas de desarrollo, lenguajes y componentes visuales, siguiendo las especificaciones y verificando interactividad y usabilidad, para desarrollar interfaces gráficos de usuario en aplicaciones multiplataforma.
+    - i) Seleccionar y emplear técnicas, motores y entornos de desarrollo, evaluando sus posibilidades, para participar en el desarrollo de juegos y aplicaciones en el ámbito del entretenimiento.
+    - j) Seleccionar y emplear técnicas, lenguajes y entornos de desarrollo, evaluando sus posibilidades, para desarrollar aplicaciones en teléfonos, PDA y otros dispositivos móviles.
+*** Competencias: m, s, t, w
+    - m) Empaquetar aplicaciones para su distribución preparando paquetes auto instalables con asistentes incorporados.
+    - s) Desplegar y distribuir aplicaciones en distintos ámbitos de implantación verificando su comportamiento y realizando las modificaciones necesarias.
+    - t) Establecer vías eficaces de relación profesional y comunicación con sus superiores, compañeros y subordinados, respetando la autonomía y competencias de las distintas personas.
+    - w) Mantener el espíritu de innovación y actualización en el ámbito de su trabajo para adaptarse a los cambios tecnológicos y organizativos de su entorno profesional.
