@@ -56,7 +56,7 @@ Git es un programa de la terminal, como ya te he comentado, aunque existen *fron
 
 Antes de poder usar Git para la gestión de los repositorios es necesario configurar algunas opciones obligatorias. Abre la terminal y ejecuta estos comandos para:
 
-- Configurar Git para que sepa el nombre del desarrollador (cambio mi nombre por el tuyo):
+- Configurar Git para que sepa el nombre del desarrollador (cambia mi nombre por el tuyo):
 
 ```bash
 $ git config --global user.name "Román Martínez"
@@ -80,7 +80,7 @@ $ git config --global init.defaultBranch main
 $ git config --global core.editor emacs
 ```
 
-> En Windows, si no lo tienes claro usoa como editor **notepad** o **notepad.exe**.
+> En Windows, si no lo tienes claro, usa como editor **notepad** o **notepad.exe**.
 
 ### Ver la configuración de tu instalación de Git
 
