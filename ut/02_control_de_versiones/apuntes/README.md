@@ -38,22 +38,22 @@
         </p>
         <p>
           4. Git: zonas y estados<br>
-		  4.1. Zonas principales de Git<br>
-		  4.2. Estados de un fichero
+          4.1. Zonas principales de Git<br>
+          4.2. Estados de un fichero
         </p>
-	<p>
-		5. Git: trabajo local
-		5.1. Inicializar un repositorio de Git
-		5.2. Estado de un repositorio
-		5.3. Confirmar cambios (add y commit)
-		5.4. Ver el historial de commits
-		5.5. Ver las diferencias entre commits: diff
-		5.6. HEAD y referencias relativas a commits
-		5.7. Ignorar ficheros: .gitignore
-		5.8. Ramas (branches)
-		5.9. Checkout: moverse a otra rama o commit
-		5.10.  Mezclar ramas
-	</p>
+    <p>
+        5. Git: trabajo local
+        5.1. Inicializar un repositorio de Git
+        5.2. Estado de un repositorio
+        5.3. Confirmar cambios (add y commit)
+        5.4. Ver el historial de commits
+        5.5. Ver las diferencias entre commits: diff
+        5.6. HEAD y referencias relativas a commits
+        5.7. Ignorar ficheros: .gitignore
+        5.8. Ramas (branches)
+        5.9. Checkout: moverse a otra rama o commit
+        5.10.  Mezclar ramas
+    </p>
       </td>
       <td>
         CE4f. Se ha realizado el control de versiones integrado en el entorno de desarrollo.
