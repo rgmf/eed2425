@@ -79,7 +79,7 @@ $ git diff
 
 Existen varias posibilidades y opciones. Te resumo algunas de ellas:
 
-- `git diff` para ver los cambios antes de realizar el *commit* (cambios actuales).
+- `git diff` para ver los cambios antes de realizar el *commit*, es decir, para ver los cambios que hay actualmente en el directorio de trabajo.
 - `git diff <hash commit a> <hash commit b>` para ver los cambios entre los *commits* indicados (para especificar estos commits se tienen que usar los códigos hash que verás en el `git log`).
 - `git diff --name-only <hash commit a> <hash commit b>` para ver solo los nombres de los ficheros que han sufrido cambios entre los dos commits indicados.
 
