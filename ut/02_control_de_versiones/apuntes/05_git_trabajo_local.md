@@ -122,13 +122,14 @@ Se utiliza un fichero llamado `.gitignore` que se crea en la raíz del proyecto 
 - Porque son ficheros temporales
 - Porque no son relevantes para el proyecto
 
-En este fichero indicamos, por cada línea, qué fichero o ficheros ignorar. Algunos ejemplos:
+En este fichero indicamos, por cada línea, qué fichero o ficheros ignorar, usando patrones. Algunos ejemplos:
 
-- `message.log` ignorará el fichero llamado `message.log` que está en la raíz del proyecto.
+- `message.log` ignorará todos aquellos ficheros que se llamen `message.log` estén donde estén.
+- `/message.log` ignorará el fichero llamado `message.log` que está en la raíz del proyecto.
 - `logs/message.log` ignorará el fichero llamado `message.log` que está dentro de la carpeta `logs`.
-- `**/message.log` ignorará los ficheros que se llamen `message.log`, estén donde estén.
 - `logs/` ignorará todos los ficheros que haya en la carpeta `logs`.
-- `*.log` ignorará todos los ficheros que acaben con la extensión `.log`.
+- `*.log` ignorará todos los ficheros que acaben con la extensión `.log`, estén donde estén.
+- `logs/*.txt` ignorará todos los ficheros que acaben con `.txt` dentro de la carpeta `logs`.
 
 ## Ramas (branches)
 
@@ -138,7 +139,7 @@ Recuerda configurar tu rama principal con el nombre **main** que es el nombre qu
 $ git config --global init.defaultBranch main
 ```
 
-Recordada esta configuración, ya podemos hablar de ramas: las ramas son diferentes líneas de desarrollo en Git. Nos permite trabajar de forma independiente y sin colisionar en proyectos colaborativos.
+Recordada esta configuración, ya podemos hablar de ramas: **las ramas son diferentes líneas de desarrollo en Git**. Nos permite trabajar de forma independiente y sin colisionar en proyectos colaborativos.
 
 También es útil usar ramas aunque trabajemos en un proyecto en solitario porque esto nos permitirá trabajar en características nuevas y hacer pruebas sin estropear la línea principal de trabajo.
 
@@ -154,22 +155,6 @@ Aquí te doy la lista de las opciones, lo que puedes hacer con las ramas y el co
 ## Checkout: moverse a otra rama o commit
 
 La opción `checkout` de Git la podemos usar para movernos de rama o de commit.
-
-### Moverse a otro commit
-
-¿Para qué podemos querer hacer esto? Para ver el estado de los ficheros y del proyecto en un commit atrás en el tiempo. Para moverte:
-
-```bash
-$ git checkout <hash del commit al que te quieres mover>
-```
-
-En este punto, el puntero `HEAD` quedará *detacheado* (*detached HEAD state*) lo que significa que no estás en ninguna rama. Así que, cualquier cambio que hagas en esta situación quedará huérfano.
-
-Para volver al último commit, imaginanado que estás en la rama *main*, basta con hacer:
-
-```bash
-$ git checkout main
-```
 
 ### Moverse a otra rama
 
@@ -192,6 +177,22 @@ Lo puedes hacer en uno, con la opción *-b* de *checkout*:
 
 ```bash
 $ git checkout -b ejemplo
+```
+
+### Moverse a otro commit
+
+¿Para qué podemos querer hacer esto? Para ver el estado de los ficheros y del proyecto en un commit atrás en el tiempo. Para moverte:
+
+```bash
+$ git checkout <hash del commit al que te quieres mover>
+```
+
+En este punto, el puntero `HEAD` quedará *detacheado* (*detached HEAD state*) lo que significa que no estás en ninguna rama. Así que, cualquier cambio que hagas en esta situación quedará huérfano.
+
+Para volver al último commit, imaginando que estás en la rama *main*, basta con hacer:
+
+```bash
+$ git checkout main
 ```
 
 ## Mezclar ramas
