@@ -9,7 +9,6 @@ Antes de empezar debes tener muy claro que **Git** hace el **seguimiento de fich
 
 Ahora sí, te explico brevemente los comandos básicos para poder trabajar con repositorios locales de Git.
 
-
 ## Inicializar un repositorio de Git
 
 Para inicializar un repositorio de Git, muévete al directorio de trabajo y ejecuta el siguiente comando:
@@ -62,6 +61,13 @@ Este comando tiene un serie de opciones para ver más o menos información. Algu
 - `git log --oneline` para ver los *commits* junto a la descripción, nada más.
 - `git log --stat` para ver qué ficheros fueron cambiados y cuántos cambios se han producido.
 - `git log --p` para ver los detalles de los cambios en los ficheros.
+- `git log --all` para ver el árbol completo con los commits de todas las ramas que se hayan podido crear y existan.
+
+Puedes combinar opciones. Por ejemplo: para ver el resumen en una línea de todos los commits en forma de árbol o grafo, puedes usar esta combinación de opciones:
+
+```shell
+$ git log --oneline --graph --all
+```
 
 Otra opción que nos ofrece Git es la de ver estos logs formateados de tal manera que podamos usar dicha información para liberar una nueva versión de nuestro software:
 
@@ -82,6 +88,8 @@ Existen varias posibilidades y opciones. Te resumo algunas de ellas:
 - `git diff` para ver los cambios antes de realizar el *commit*, es decir, para ver los cambios que hay actualmente en el directorio de trabajo.
 - `git diff <hash commit a> <hash commit b>` para ver los cambios entre los *commits* indicados (para especificar estos commits se tienen que usar los códigos hash que verás en el `git log`).
 - `git diff --name-only <hash commit a> <hash commit b>` para ver solo los nombres de los ficheros que han sufrido cambios entre los dos commits indicados.
+
+> En el [siguiente apartado](./06_git_diff_interpretacion.md) se explica la interpretación de la salida de este comando.
 
 ## HEAD y referencias relativas a commits
 
@@ -209,7 +217,12 @@ Para mezclar un rama en otra tienes que situarte en el destino, en la rama donde
 Cuando mezclas con un *merge* Git puede hacer esta mezcla o fusión de dos maneras:
 
 - Mezcla por **avance rápido** o **fast-forward** si no ha habido cambios en la rama destino desde la bifurcación.
+
+![Imagen representando un commit fast-forward](./img/merge1.png)
+
 - Mezcla por **tres vías** en la que Git creará un commit adicional para unir el camino de las dos ramas a fusionar.
+
+![Imagen representando un commit por tres vías](./img/merge2.png)
 
 Además, cuando mezclas dos ramas se pueden producir colisiones o conflictos si en ambas ramas se ha modificado el mismo fichero en la misma línea. Veremos, más adelante, cómo se resuelven estos conflictos ya que, si esto sucede, tendrás que terminar la fusión a mano.
 
@@ -219,9 +232,19 @@ La idea es la misma que con el *merge*: vas a la rama donde quieres fusionar y f
 
 La diferencia es que le *rebase* crea un histórico lineal, llevando los *commits* del origen al final de los *commits* del destino. Así pues, como contrapartida, pierdes la "historia real" de lo que sucedió y cómo sucedió.
 
+![Imagen representando un commit por tres vías](./img/rebase2.png)
+
 En los *rebase* también se pueden producir conflictos que habría que resolver a mano para terminar de fusionar las dos ramas.
 
 Para hacer el *rebase* de un rama **rama1** a **main** tienes que realizar estos pasos:
 
 1. Cambia a la rama **main** si no estás ya en ella: `git checkout main`.
 2. Ejecuta el comando siguiente para mezclar lo que hay en **rama1**: `git rebase rama1`.
+
+### Información de ramas fusionadas y no fusionadas
+
+Por último, es conveniente saber si una rama ha sido o no fusionadas, así como otra información que puede resultar interesante. Estos comandos te ayudarán a ello:
+
+- Para ver la última confirmación de cambios en cada rama: `git branch -v`
+- Para saber las ramas que ya han sido fusionadas: `git branch --merged`
+- Para saber las ramas que no han sido fusionadas todavía: `git branch --no-merged`
