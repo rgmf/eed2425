@@ -248,3 +248,28 @@ Por último, es conveniente saber si una rama ha sido o no fusionadas, así como
 - Para ver la última confirmación de cambios en cada rama: `git branch -v`
 - Para saber las ramas que ya han sido fusionadas: `git branch --merged`
 - Para saber las ramas que no han sido fusionadas todavía: `git branch --no-merged`
+
+## Rebase interactivo
+
+Un rebase interactivo te permite reorganizar y editar el historial de commits de manera flexible y controlada. Por ejemplo, con un rebase interactio puedes:
+
+- Reordenar commits: puedes cambiar el orden en que se aplicaron los commits.
+- Aplastar commits: puedes combinar varios commits en uno solo.
+- Dividir commits: puedes dividir un commit en varios commits más pequeños.
+- Editar commits: puedes editar el mensaje de commit o incluso el contenido del commit.
+- Eliminar commits: puedes eliminar commits que ya no sean necesarios.
+- Reorganizar commits para que tengan un orden lógico y coherente.
+
+Para dar comienzo a un commit interactivo tienes que ejecutar el comando `git commit -i <commit>` donde `<commit>` es la referencia del commit a partir del cual das comienzo al rebase interactivo. Por ejemplo:
+
+```shell
+$ git rebase -i HEAD~5
+```
+
+Das comienzo al commit interactivo a partir del commit `HEAD~5` (este no se incluye).
+
+Al iniciar un commit interactivo se abrirá el editor de textos y aparecen la referencia a todos los commits junto a un comentario con todas las opciones disponibles.
+
+Aquí puedes ver la captura del editor de textos que muestra información de un rebase interactivo:
+
+![Rebase interactivo](./img/rebase_interactivo_800x800.png)
