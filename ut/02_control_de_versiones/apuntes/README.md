@@ -42,7 +42,7 @@
           4.2. Estados de un fichero
         </p>
         <p>
-            5. Git: trabajo local<br>
+            5. Git: trabajo en local<br>
             5.1. Inicializar un repositorio de Git<br>
             5.2. Estado de un repositorio<br>
             5.3. Confirmar cambios (add y commit)<br>
@@ -63,6 +63,12 @@
             6.5. Ficheros con líneas modificadas<br>
             6.6. Ficheros renombrados
         </p>
+        <p>
+            7. Git: trabajo en remoto<br>
+            7.1. Servicios de alojamiento de repositorios Git<br>
+            7.2. Comandos básicos para trabajar con repositorios remotos<br>
+            7.3. GitHub: configurar claves SSH o GPG
+        </p>
       </td>
       <td>
         CE4f. Se ha realizado el control de versiones integrado en el entorno de desarrollo.
@@ -77,5 +83,6 @@
 2. [Git: introducción y configuración](02_git_primeros_pasos.md)
 3. [Git: conceptos](03_git_conceptos.md)
 4. [Git: zonas y estados](04_git_zonas_estados.md)
-5. [Git: trabajo local](05_git_trabajo_local.md)
+5. [Git: trabajo en local](05_git_trabajo_local.md)
 6. [Git: análisis de un git diff](06_git_diff_interpretacion.md)
+7. [Git: trabajo en remoto](07_git_trabajo_remoto.md)

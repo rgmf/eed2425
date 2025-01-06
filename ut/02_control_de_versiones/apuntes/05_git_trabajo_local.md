@@ -3,7 +3,7 @@
 - **RA4** Optimiza código empleando las herramientas disponibles en el entorno de desarrollo
   - **CE4f** Se ha realizado el control de versiones integrado en el entorno de desarrollo.
 
-# Git: trabajo local
+# Git: trabajo en local
 
 Antes de empezar debes tener muy claro que **Git** hace el **seguimiento de ficheros, no de carpetas**.
 
