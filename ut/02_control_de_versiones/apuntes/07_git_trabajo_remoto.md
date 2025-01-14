@@ -87,6 +87,16 @@ $ git remote remove origin
 
 A partir de aquí tu repositorio local ha quedado desvinculado de tu repositorio remoto pero no se borra nada de lo que hay en tu copia de trabajo.
 
+### git clone
+
+Con este comando puedes clonar un repositorio remoto. El resultado de clonar un repositorio remoto es que se descargará en tu equipo. Por ejemplo, si ejecutas este comando:
+
+```shell
+$ git clone git@github.com:rgmf/eed_proyecto.git
+```
+
+Se descargará el repositorio remoto que está en **GitHub**, que pertenece al usuario **rgmf** y que se llama **eed_proyecto**. Tras ejecutar este comando, verás una carpeta llamada `eed_proyecto` dentro de la carpeta en la que has ejecutado ese `git clone`.
+
 ### git push
 
 Con este comando puedes enviar tus cambios al repositorio remoto indicado y a la rama indicada. De esta manera sincronizas tu copia local y el remoto.
@@ -125,4 +135,4 @@ $ git fetch
 
 Tras crear una cuenta, lo primero que deberías hacer es configurar claves SSH o GPG para autenticarte e identificarte cada vez que hagas operaciones que necesiten de autenticación.
 
-Las instrucciones de cómo hacerlo [las tienes en la página web de GitHub](https://github.com/settings/keys).
+Las instrucciones de cómo hacerlo las puedes encontra en la propia [página web de GitHub](https://github.com/settings/keys).
