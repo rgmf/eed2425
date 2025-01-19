@@ -130,9 +130,3 @@ No hace ninguna transferencia de archivos pero te permite comprobar si hay algú
 ```shell
 $ git fetch
 ```
-
-## GitHub: configurar claves SSH o GPG
-
-Tras crear una cuenta, lo primero que deberías hacer es configurar claves SSH o GPG para autenticarte e identificarte cada vez que hagas operaciones que necesiten de autenticación.
-
-Las instrucciones de cómo hacerlo las puedes encontra en la propia [página web de GitHub](https://github.com/settings/keys).

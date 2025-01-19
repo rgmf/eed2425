@@ -66,8 +66,13 @@
         <p>
             7. Git: trabajo en remoto<br>
             7.1. Servicios de alojamiento de repositorios Git<br>
-            7.2. Comandos básicos para trabajar con repositorios remotos<br>
-            7.3. GitHub: configurar claves SSH o GPG
+            7.2. Comandos básicos para trabajar con repositorios remotos
+        </p>
+        <p>
+            8. GitHub<br>
+            8.1. Diferencias entre remoto HTTPS y SSH<br>
+            8.1. Configurar claves SSH<br>
+            8.2. Participar en un proyecto: fork y pull request
         </p>
       </td>
       <td>
@@ -86,3 +91,4 @@
 5. [Git: trabajo en local](05_git_trabajo_local.md)
 6. [Git: análisis de un git diff](06_git_diff_interpretacion.md)
 7. [Git: trabajo en remoto](07_git_trabajo_remoto.md)
+8. [GitHub](08_github.md)
