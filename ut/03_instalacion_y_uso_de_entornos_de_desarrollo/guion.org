@@ -1,0 +1,22 @@
+* ¿Qué es un entorno de desarrollo?
+Explicar qué es un entorno de desarrollo tal como está en la documentación, poniendo especial énfasis en:
+- LSP
+- Linter
+- Formateadores  
+* Vi
+** Ejercicio guiado
+Veamos cómo usar el editor de texto (código) Vi.
+** Práctica
+Que hagan una práctica en la que tienen que emplear Vi para hacer una serie de ediciones.
+* Visual Studio Code: LSP, linter y formatter
+** Ejercicio guiado
+Con el objetivo de interiorizar qué son los LSP, linter y formatter, vamos a usar VSCode. Estos son los pasos a realizar:
+1. Partimos de una instalación limpia, sin plugins
+2. Escribimos un programa en Java, en una carpeta, un *Main.java* y producimos errores (veremos que no nos avisa de tales errores)
+3. Instalamos el LSP de Oracle que se llama: *Java* (Java Platform Extension for Visual Studio Code), de *oracle.com*
+4. Es probable que tengamos que configurar el LSP anterior para indicarle dónde está nuestro JDK
+5. Al instalar y habilitar el plugin vemos que, ahora, podemos:
+   - Ver errores de sintaxis conforme los cometemos
+   - Autocompletado de código
+   - Ejecutar desde el editor de código
+** Práctica
