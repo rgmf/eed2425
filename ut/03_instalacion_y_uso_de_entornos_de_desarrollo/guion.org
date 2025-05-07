@@ -420,4 +420,43 @@ Y, ahora, en ~dependencies~ añadimos los jar que queramos:
   implementation(files("libs/dateformatter-lib.jar", "libs/a.jar", "libs/b.jar"))
 #+end_src
 ** Dependencias: Maven Repository
+** Configurar Java toolchain
+Se conoce como *Java Toolchain* al conjunto de herramientas que se usan para compilar/construir y ejecutar programas en Java y vienen dados por el JRE o el JDK.
+
+Es una buena práctica indicar a Gradle qué versión de la JVM se va a usar para, entre otras cosas, asegurar que todos los desarrolladores usen la misma versión de Java y se pueda mantener la compatibilidad.
+
+Para especificar qué versión de Java se usará, por ejemplo la 17, en el script ~build.gradle.kts~ hay que añadir:
+
+#+begin_src kotlin
+  java {
+      toolchain {
+          languageVersion = JavaLanguageVersion.of(17)
+          vendor = JvmVendorSpec.ORACLE
+      }
+  }
+#+end_src
+
+Esto asegura que Gradle construya el proyecto usando la versión 17 de la JVM y, por tanto, que el bytecode sea compatible con esa versión de la JVM.
+
+Si no está instalado en el sistema la JVM indicada, en este caso la 17, se descargará del ~vendor~ indicado (más aquí: https://docs.gradle.org/current/javadoc/org/gradle/jvm/toolchain/JvmVendorSpec.html).
+
+Ahora surge otro problema: es posible que uses APIs o plugins que usen otra versión de la JVM. Para evitarlo, y forzar sí o sí a usar la versión 17, de este ejemplo, es necesario añadir el flag ~--release~, que obliga de forma restrictiva a usar dicha versión:
+
+#+begin_src kotlin
+  tasks.withType<JavaCompile>().configureEach {
+      options.release = 17
+  }
+#+end_src
+
+Además, para que Gradle se descargue automáticamente la versión del JDK que indicas (si no está en el sistema), tendrás que añadir el siguiente plugin en el fichero ~settings.gradle.kts~:
+
+#+begin_src kotlin
+  plugins {
+      // Apply the foojay-resolver plugin to allow automatic download of JDKs
+      id("org.gradle.toolchains.foojay-resolver-convention") version "0.9.0"
+  }
+#+end_src
+
+Dispones de muchas más información en la documentación oficial, en concreto aquí: https://docs.gradle.org/current/userguide/toolchains.html
+
 ** Práctica: Gradle a mano
